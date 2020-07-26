@@ -29,3 +29,9 @@ build/
 
 ### VS Code ###
 .vscode/
+add
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml

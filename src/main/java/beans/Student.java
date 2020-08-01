@@ -4,10 +4,24 @@ public class Student {
 
   String name;
   int age;
+  String gender;
+
+  public Student(String name, int age, String gender) {
+    this(name, age);
+    this.gender = gender;
+  }
 
   public Student(String name, int age) {
     this.name = name;
     this.age = age;
+  }
+
+  public String getGender() {
+    return gender;
+  }
+
+  public void setGender(String gender) {
+    this.gender = gender;
   }
 
   public String getName() {
